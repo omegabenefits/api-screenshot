@@ -166,6 +166,9 @@ async function handler(event, context) {
 		if (aspectratio === '1:1') {
 			viewport = [1200, 1200];
 		}
+		if (aspectratio === '4:5') {
+			viewport = [1200, 1500];
+		}
 	} else if (size === 'opengraph') {
 		// ignores aspectratio
 		// always maintain a 1200×630 output image
