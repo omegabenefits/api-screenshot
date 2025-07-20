@@ -196,7 +196,7 @@ async function handler(event, context) {
 		});
 
 		// output to Function logs
-		console.log(url, format, { viewport }, { size }, { dpr }, { aspectratio });
+		console.log(url, format, { viewport }, { size }, { dpr }, { aspectratio }, { wait });
 
 		return {
 			statusCode: 200,
