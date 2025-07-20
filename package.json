@@ -1,0 +1,26 @@
+{
+  "name": "eleventy-api-screenshot",
+  "version": "1.0.0",
+  "description": "A service to add web page screenshots to your Eleventy sites.",
+  "scripts": {},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/11ty/api-screenshot.git"
+  },
+  "author": {
+    "name": "Zach Leatherman",
+    "email": "zachleatherman@gmail.com",
+    "url": "https://zachleat.com/"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/11ty/api-screenshot/issues"
+  },
+  "homepage": "https://github.com/11ty/api-screenshot#readme",
+  "dependencies": {
+    "@netlify/functions": "^2.8.1",
+    "@sparticuz/chromium": "^126.0.0",
+    "puppeteer-core": "^22.13.1"
+  }
+}
