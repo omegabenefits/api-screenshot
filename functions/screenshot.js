@@ -162,12 +162,18 @@ async function handler(event, context) {
 		if (aspectratio === '5:4') {
 			viewport = [1200, 960];
 		}
-	} else if (size === 'long') {
+	} else if (size === 'hd') {
 		if (aspectratio === '1:1') {
-			viewport = [1200, 1200];
+			viewport = [1280, 1280];
+		}
+		if (aspectratio === '16:9') {
+			viewport = [1280, 720];
+		}
+		if (aspectratio === '4:3') {
+			viewport = [1280, 960];
 		}
 		if (aspectratio === '4:5') {
-			viewport = [1200, 1500];
+			viewport = [1280, 1600];
 		}
 	} else if (size === 'opengraph') {
 		// ignores aspectratio
